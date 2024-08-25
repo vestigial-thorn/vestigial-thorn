@@ -1,15 +1,15 @@
-import { render } from '@testing-library/react';
+import { render, waitFor } from '@testing-library/react';
 
 import App from './app';
 
 describe('App', () => {
-  it('should render successfully', () => {
+  it('should render successfully', async () => {
     const { baseElement } = render(<App />);
-    expect(baseElement).toBeTruthy();
+    await waitFor(() => expect(baseElement).toBeTruthy());
   });
 
-  it('should have a greeting as the title', () => {
+  it('should have a greeting as the title', async () => {
     const { getByText } = render(<App />);
-    expect(getByText(/It takes a village/i)).toBeTruthy();
+    await waitFor(() => expect(getByText(/It takes a village/i)).toBeTruthy());
   });
 });
