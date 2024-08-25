@@ -1,19 +1,11 @@
 # Tasks
 
-- [Organization](#organization)
-- [Application](#application)
+- [Immediate](#immediate)
+- [Organization](./backlog/organization.md)
+- [Development](./backlog/backlog.md)
 
-## Organization
 
-- Declare organization
-- Declare needs of the platform
-
-## [Applications](./backlog/backlog.md)
-
-- [Public web app](./backlog/web.md)
-- Public mobile apps
-  - iOS
-  - Android
-- Internal web apps
-- Services
-- Jobs
+## Immediate
+- [Get a static page onto the internet](./tasks/0001.do-the-thing.md)
+- [Lerna](./tasks/0002.lerna.md)
+- [Create React App](./tasks/0003.create-react-app.md)

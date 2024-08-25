@@ -8,4 +8,10 @@ Development backlog
 
 ## Project specific
 
-- [Public Web App](./web.md)
+- [Public web app](./web.md)
+- Public mobile apps
+  - iOS
+  - Android
+- Internal web apps
+- Services
+- Jobs
