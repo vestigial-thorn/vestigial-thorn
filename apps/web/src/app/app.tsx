@@ -1,10 +1,15 @@
+import { Button, Space } from "antd";
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 import styles from './app.module.less';
+import 'antd/dist/reset.css';
 
-export function App() {
+const App = ()  => {
   return (
     <div>
-      It takes a village
+      <Space>
+        It takes a village
+        <Button type="primary">Button</Button>
+      </Space>
     </div>
   );
 }
