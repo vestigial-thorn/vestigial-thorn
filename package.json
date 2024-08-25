@@ -2,7 +2,10 @@
   "name": "@village/source",
   "version": "0.0.0",
   "license": "UNLICENSED",
-  "scripts": {},
+  "scripts": {
+    "start": "nx serve",
+    "test": "nx test"
+  },
   "private": true,
   "dependencies": {
     "@swc/helpers": "~0.5.0",
