@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Where do we go from here?
 
 ## Setting Intention
@@ -20,3 +21,12 @@ We will need to work
 - [needs](./needs/needs.md)
 
 We will need help
+=======
+- 👋 Hi, I’m thorn (@vestigial-thorn)
+  - pronouns: they/any
+- 📫 How to reach me ...
+  - email: vestigialthorn@gmail.com
+  - website: ...coming soon
+  - lemmy: @vestigialthorn@lemmy.world
+  - mastodon: @vestigial_thorn@mastodon.social
+>>>>>>> a0a5b40b0a64cf2a02d1d54e3fe07b6fce2632dd
